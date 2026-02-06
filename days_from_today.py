@@ -9,4 +9,4 @@ def get_days_from_today(date: str) -> int:
     today = dt.date.today()
     days_from_date = (today - date).days
     
-    return int(days_from_date)
+    return days_from_date
